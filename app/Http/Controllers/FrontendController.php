@@ -557,6 +557,10 @@ class FrontendController extends Controller
     {
         return view('web.terms_conditions');
     }
+    public function measure()
+    {
+        return view('web.measure');
+    }
 
     /**************************Appointment************************************/
     public function book_appointment()
